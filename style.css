@@ -36,7 +36,7 @@ body {
 .modal-container {
     background-color: #fff;
     max-width: 70%;
-    width: min(300px, 70%);
+    width: min(700px, 70%);
     min-height: 30%;
     max-height: 80%;
     padding: 20px;
@@ -89,4 +89,8 @@ body {
 
 .show-modal:hover {
     opacity: 0.8;
+}
+
+.no-scroll {
+    overflow-y: hidden;
 }
